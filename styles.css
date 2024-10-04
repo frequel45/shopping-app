@@ -81,7 +81,7 @@ header p {
     border-radius: 12px;
     transition: transform 0.2s;
     margin: 12px;
-    border: solid;
+    border: none;
 }
 
 .app-grid img:hover {
