@@ -76,10 +76,11 @@ header p {
 }
 
 .app-grid img {
-    width: 80%;
+    width: 90%;
     border-radius: 12px;
     transition: transform 0.2s;
     margin: 12px;
+    border: solid;
 }
 
 .app-grid img:hover {
