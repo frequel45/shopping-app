@@ -88,7 +88,7 @@ header p {
     transform: scale(1.05);
 }
 
-@media (max-width: 750px) (hover: hover) {
+@media (max-width: 750px) {
 
    .app-grid {
     display: grid;
@@ -106,7 +106,7 @@ header p {
     margin: 16px;
     border: none;
   }
-
+ @media (hover: hover)
    .app-grid img:hover {
     transform: scale(1.5);
   }
