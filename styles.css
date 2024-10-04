@@ -69,23 +69,24 @@ header p {
 
 .app-grid {
     display: grid;
-    background-color: #e6b800;
+    background-color: #ffcc00;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 20px;
-    margin: 12px;
+    margin: 6px;
 }
 
 .app-grid img {
     width: 90%;
     border-radius: 12px;
     transition: transform 0.2s;
-    margin: 12px;
+    margin: 6px;
     border: none;
 }
 
 .app-grid img:hover {
     transform: scale(1.05);
+    border: #1a1d21;
 }
 
 footer {
