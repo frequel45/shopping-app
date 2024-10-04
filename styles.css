@@ -86,7 +86,7 @@ header p {
 
 .app-grid img:hover {
     transform: scale(1.05);
-    border: #1a1d21;
+    border: black;
 }
 
 footer {
