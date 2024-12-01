@@ -4,6 +4,9 @@
   "description": "Discount coupon!",
   "start_url": "/index.html",
   "display": "standalone",
+  "background": { 
+    "service_worker":  "service-worker.js"
+  },
   "background_color": "#ffffff",
   "theme_color": "#6c1dd0",
   "icons": [
