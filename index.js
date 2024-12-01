@@ -33,3 +33,9 @@ window.addEventListener("beforeinstallprompt", (e) => {
         });
     });
 });
+
+if (!window.beforeinstallprompt) {
+    const installInstructions = document.getElementById("install-instructions");
+    installInstructions.style.display = "block";
+}
+
